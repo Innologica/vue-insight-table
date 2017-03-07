@@ -2,7 +2,7 @@
 * Created by Nikola nb on 12.02.2017.
 */
 <template>
-    <ul v-if="pagination" :class="css.wrapperClass">
+    <ul  v-if="pagination && pagination.pageCount > 1" :class="css.wrapperClass">
         <li>
             <a @click="loadPage(1)"
                :class="['btn-nav', css.linkClass, isOnFirstPage ? css.disabledClass : '']">

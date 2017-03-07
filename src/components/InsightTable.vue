@@ -63,8 +63,8 @@
                     return {
                         tableClass: 'ui blue selectable celled stackable attached table',
                         loadingClass: 'loading',
-                        ascendingIcon: 'blue chevron up icon',
-                        descendingIcon: 'blue chevron down icon',
+                        ascendingIcon: 'glyphicon glyphicon-chevron-up',
+                        descendingIcon: 'glyphicon glyphicon-chevron-down',
                         detailRowClass: 'is-table-detail-row',
                         sortHandleIcon: 'grey sidebar icon'
                     }
