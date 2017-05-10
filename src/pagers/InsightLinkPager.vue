@@ -59,3 +59,9 @@
         mixins: [InsightPaginationMixin]
     }
 </script>
+
+<style>
+    ul.pagination li {
+        cursor: pointer;
+    }
+</style>

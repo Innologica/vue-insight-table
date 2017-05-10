@@ -12,7 +12,7 @@
             </span>
             </template>
         </insight-table>
-        <insight-link-pager :pagination="pagination"></insight-link-pager>
+        <insight-link-pager :pagination="pagination" @change-page="page"></insight-link-pager>
     </div>
 </template>
 
@@ -63,6 +63,9 @@
             }
         },
         methods: {
+            page (page) {
+                this.pagination.currentPage = page
+            },
             formatDate (item, index, field) {
                 if(!_.get(item, field.name))
                     return null

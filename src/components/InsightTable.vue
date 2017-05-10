@@ -32,7 +32,7 @@
                 </template>
             </tr>
         </template>
-        </transition-groupt>
+        </transition-group>
     </table>
 </template>
 
